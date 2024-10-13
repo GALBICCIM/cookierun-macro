@@ -61,7 +61,7 @@ fCheckMode() {
 	ImageSearch, sX, sY, 0, 40, 1315, 780, *75 ./imgs/confirm_1.png
 	if (ErrorLevel = 0) {
 		Random, randomizeX, -20, 20
-		Random, randomizeY, -30, 10
+		Random, randomizeY, -10, 30
 		GuiControl,, Status, Found "확인" at %sX% %sY%
 		
 		MouseClick, left, sX + randomizeX, sY + randomizeY, 1, 50
@@ -73,7 +73,7 @@ fCheckMode() {
 	ImageSearch, sX, sY, 0, 40, 1315, 780, *75 ./imgs/confirm_2.png
 	if (ErrorLevel = 0) {
 		Random, randomizeX, -20, 20
-		Random, randomizeY, -30, 10
+		Random, randomizeY, -10, 30
 		GuiControl,, Status, Found "확인" at %sX% %sY%
 		
 		MouseClick, left, sX + randomizeX, sY + randomizeY, 1, 50
@@ -87,7 +87,7 @@ fCheckMode() {
 	ImageSearch, sX, sY, 0, 40, 1315, 780, *75 ./imgs/open.png
 	if (ErrorLevel = 0) {
 		Random, randomizeX, -20, 20
-		Random, randomizeY, -30, 10
+		Random, randomizeY, -10, 30
 		GuiControl,, Status, Found "모두 열기" at %sX% %sY%
 		
 		MouseClick, left, sX + randomizeX, sY + randomizeY, 1, 50
